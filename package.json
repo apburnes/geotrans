@@ -1,0 +1,28 @@
+{
+  "name": "geotrans",
+  "version": "0.0.1",
+  "description": "Transform GeoPDF's and other geodata",
+  "bin": "./bin/cli.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/ --timeout 100000",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "andy b",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.4.2",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "require-dir": "^0.3.0",
+    "wellknown": "^0.4.0"
+  }
+}

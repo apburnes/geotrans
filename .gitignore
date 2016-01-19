@@ -1,0 +1,12 @@
+test/data/*
+test/fixtures/vrt_test/**/*.tif
+test/fixtures/vrt_test/**/*.pdf
+test/fixtures/*.tif
+test/fixtures/*.pdf
+test/fixtures/*.shp
+test/fixtures/*.shx
+test/fixtures/*.prj
+test/fixtures/*.dbf
+test/fixtures/*.geojson
+node_modules
+npm-debug.log
